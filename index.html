@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Spotify-Just feel the song</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="/photo/logo.png" alt="spotify" /></li>
+        <li href="#">Home</li>
+        <li href="#">About</li>
+        <li href="#">Contect</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>best of abhay- no compyright</h1> 
+      <div class="songList" id="songList"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" id="myProgressBar" min="0" max="100" value="0" />
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-backward " id="previous"></i>
+        <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-2x fa-forward next" id="next" ></i>
+      </div>
+      <div class="songIndicator">
+        <img src="/photo/gif.gif" id="gif" alt="" height="20px" />
+        <p id="songIndicatorName"></p>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/47ef7b9ffa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
